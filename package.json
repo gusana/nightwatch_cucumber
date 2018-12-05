@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "framework based on nightwatch and cucumber",
   "scripts": {
-    "uitests": "nightwatch ./features/courseOverview/courseOverviewNegative"
+    "uitests": "nightwatch ./features/"
   },
   "repository": {
     "type": "git",
