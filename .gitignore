@@ -1,0 +1,12 @@
+/node_modules
+/tmp
+/public
+/npm-debug.log
+/.env
+/coverage
+.wti
+/.npmrc
+.DS_Store
+selenium-debug.log
+package-lock.json
+/repors
