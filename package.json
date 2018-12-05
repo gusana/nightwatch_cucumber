@@ -1,0 +1,27 @@
+{
+  "name": "nightwatch_cucumber_framework",
+  "version": "0.0.1",
+  "description": "framework based on nightwatch and cucumber",
+  "scripts": {
+    "uitests": "nightwatch ./features/courseOverview/courseOverviewNegative"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gusana/nightwatch_cucumber.git"
+  },
+  "author": "gusana",
+  "license": "UNLICENSED",
+  "private": true,
+  "homepage": "",
+  "dependencies": {
+    "chromedriver": "2.39.0"
+  },
+  "devDependencies": {
+    "cucumber": "^4.0.0",
+    "cucumber-html-reporter": "^4.0.4",
+    "geckodriver": "^1.14.1",
+    "nightwatch": "^0.9.20",
+    "nightwatch-cucumber": "^9.1.2",
+    "selenium-server": "^3.14.0"
+  }
+}
